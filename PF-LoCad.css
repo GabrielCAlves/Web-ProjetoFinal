@@ -1,0 +1,69 @@
+form.Login{
+    height:657px;
+    width:500px;
+    margin-bottom: 0px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+/*.imgGalaxy{
+    float:left;
+}*/
+
+form.SignUp{
+    margin-top: 75px;
+    margin-bottom: 50px;
+    height: auto;
+    width:1000px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+div, span{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.textoExibicao, div.textoTermos{
+    margin: 0px;
+}
+
+div.textoExibicao{
+    color:grey;
+}
+
+div.Mes, div.Dia, div.Ano{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+select.mes{
+    width: 220px;
+}
+
+.caixa{
+    margin-right: 11px;
+}
+
+.radio{
+    margin-left: 0px;
+}
+
+button{
+    align-self: center;
+    width: 475px;
+}
+
+body{
+    background-image:url("galaxia-fundo.jpg");
+}
+
+.CC{
+    margin-left: 0px;
+}
+
+.close{
+    margin-right: 0px;
+}

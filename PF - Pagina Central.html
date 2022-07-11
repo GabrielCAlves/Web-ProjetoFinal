@@ -1,0 +1,378 @@
+<html>
+  <head>
+   <link rel="stylesheet" type="text/css" href="PF-PaginaCentral.css" media="screen">
+   
+   <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+  crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+  
+  </head>
+
+  <body>
+     
+     <div class="container">
+          <div class="row justify-content-between content">
+
+            <div class="col-6 col-sm-6 col-md-8 col-lg-10 coluna1 p-0">
+                
+                <header class="d-flex align-items-center justify-content-between m-0">
+                    <i class="bi bi-arrow-left"></i>
+                    <a href="PF - Pagina Central.html"><img src="https://raw.githubusercontent.com/GabrielCAlves/Web-ProjetoFinal/main/Gal%C3%A1xias-removebg-preview.png" class="logoImg" width="auto" height="100px" alt="logo"></a>
+                        <div class="conta d-flex align-items-center justify-content-evenly"  data-bs-toggle="modal" data-bs-target=".log">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png?20150327203541" alt="LoginImg" class="account" width="52px" height="52px">
+                            <span class="text-white">Username</span>
+                        </div>
+                    <div class="modal log" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title d-flex justify-content-center mb-4">Deseja sair?</h5>
+                                        <div class="card-text">
+                                            <div class="row">
+                                                <a class="Sim col d-flex justify-content-end" href="PF - Login.html"><button type="button" class="btn btn-primary">Sim</button></a>
+                                                <a class="Nao col d-flex justify-content-start" data-bs-dismiss="modal" aria-label="Close"><button type="button" class="btn btn-primary">Não</button></a>
+                                            </div>
+                                            <div class="row">
+                                                <a href="PF - Perfil.html" class="d-flex justify-content-center mt-5"><button type="button" class="btn btn-primary">Visitar Perfil</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="corpo2 p-5">
+                    <div class="row">
+                        <div class="universe col">
+                            <img class="rounded-0" src="MACS 2129-1.jpeg" alt="universe1" data-bs-toggle="modal" data-bs-target=".universe1" width="256px" height="180px">
+                            <p class="d-flex justify-self-center"><strong>MACS 2129-1</strong></p>
+                        </div>
+    
+                        <div class="modal universe1" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top rounded-0" src="https://t.ctcdn.com.br/569cH6zSjwBlftit6ZM9QP0dr9c=/660x0/smart/i368920.jpeg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <h5 class="card-title d-flex justify-content-center">MACS 2129-1</h5>
+                                          <div class="card-text descricao d-flex align-content-left">
+                                                <p>
+                                                    Uma galáxia massiva em forma de disco, a MACS 2129-1 simplesmente parou de fabricar novas estrelas alguns bilhares de anos depois do Big Bang. Observações do telescópio espacial Hubble mostram que nenhuma nova estrela surgiu nesta galáxia há pelo menos 10 bilhões de anos. Por isso, é chamada de “galáxia morta”.
+                                                    <br><br>Até sua descoberta, astrônomos acreditavam que galáxias desse tipo eram o resultado de fusões explosivas. Mas as estrelas da MACS 2129-1 se formaram todas dentro do próprio disco, e não em fusões com outras galáxias.
+                                                    Um estudo de 2017 publicado na revista Nature sugere que galáxias mortas - ou seja, que não formam mais estrelas - fazem rearranjos internos em sua estrutura conforme envelhecem. Por isso, e não por causa de fusões, é que mudam de formato.
+                                                </p>
+                                          </div>
+                                          <button type="submit" class="Salvar btn btn-primary">Salvar</button>
+                                          <button type="submit" class="Voltar btn btn-danger">Voltar</button>
+                                          <form id="formulario">
+                                            <div>
+                                                <label for="inputText" class="form-label"></label>
+                                                <textarea class="form-control" id="inputText" placeholder="Comente algo..."></textarea>
+                                            </div>
+                                            <div class="row mt-3 mb-3">
+                                                <strong><span class="contadorModal d-flex justify-content-center"></span></strong>
+                                            </div>
+                                            <div class="d-flex justify-content-center py-2">
+                                                <button type="submit" class="Comentar btn btn-primary">Comentar</button>
+                                            </div>
+                                          </form>
+                                          <div id="commentPost"></div>
+                                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="universe col">
+                            <img class="rounded-0" src="Messier 82.jpg" alt="universe1" data-bs-toggle="modal" data-bs-target=".universe2" width="256px" height="180px">
+                            <p class="d-flex justify-self-center"><strong>Messier 82</strong></p>
+                        </div>
+    
+                        <div class="modal universe2" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top rounded-0" src="https://www.nasa.gov/sites/default/files/thumbnails/image/m82.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <h5 class="card-title d-flex justify-content-center">Messier 82</h5>
+                                          <div class="card-text descricao d-flex align-content-left">
+                                                <p>
+                                                    Messier 82 (também conhecido como NGC 3034, M82 ou "Galáxia do Charuto") é uma galáxia espiral com dimensões 11,2′ × 4,3′ e magnitude aparente 8,6 na constelação da Ursa Ursa. 
+                                                    M82 está gravitacionalmente ligado à galáxia espiral ligeiramente maior M81, formando o núcleo do grupo de galáxias M81.
+                                                    <br><br>
+                                                    A galáxia corresponde assim provavelmente ao tipo morfológico de uma galáxia espiral barrada (Sbc), ou seja, os braços originam-se nas extremidades de uma barra que não é particularmente longa neste caso. 
+                                                    Perto está a brilhante galáxia espiral M81, com a qual forma um par fisicamente ligado e o núcleo do grupo de galáxias M81, a cerca de 12 milhões de anos-luz de distância.
+                                                    <br><br>
+                                                    Interagindo com M81 em um voo próximo cerca de 500 milhões de anos atrás, a galáxia M82 foi drasticamente alterada. 
+                                                    Na região interna, a taxa na qual novas estrelas se formam a partir de matéria interestelar aumentou acentuadamente (explosão estelar).
+                                                    <br><br>
+                                                    Isso torna a M82 uma das galáxias infravermelhas mais brilhantes e uma das galáxias de rádio mais brilhantes (Ursa Maior A). 
+                                                    Como resultado da explosão estelar, o movimento turbulento do gás é criado por explosões de supernovas, que são observadas como um fluxo perpendicular ao plano da galáxia de M82.
+                                                    <br><br>
+                                                    Devido à sua proximidade e brilho, M82 é uma das galáxias starburst mais bem estudadas. 
+                                                    M82 contém a fonte de raios-X ultrabrilhante M82 X-1 em um de seus aglomerados estelares.
+                                                    <br><br>
+                                                    O buraco negro de massa média com cerca de 415 massas solares é orbitado por uma estrela supermassiva. 
+                                                    Em 2014, outra fonte de raios-X ultraluminosa foi descoberta com o M82 X-2, em que a radiação emana de um pulsar de raios-X.
+                                                    <br><br>
+                                                    Halton Arp dividiu seu catálogo de galáxias incomuns em grupos com base em critérios puramente morfológicos.
+                                                </p>
+                                          </div>
+                                          <button type="submit" class="Salvar btn btn-primary">Salvar</button>
+                                          <button type="submit" class="Voltar btn btn-danger">Voltar</button>
+                                          <form id="formulario">
+                                            <div>
+                                                <label for="inputText" class="form-label"></label>
+                                                <textarea class="form-control" id="inputText" placeholder="Comente algo..."></textarea>
+                                            </div>
+                                            <div class="row mt-3 mb-3">
+                                                <strong><span class="contadorModal d-flex justify-content-center"></span></strong>
+                                            </div>
+                                            <div class="d-flex justify-content-center py-2">
+                                                <button type="submit" class="Comentar btn btn-primary">Comentar</button>
+                                            </div>
+                                          </form>
+                                          <div id="commentPost"></div>
+                                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="universe col">
+                            <img class="rounded-0" src="Sunflower Galaxy.png" alt="universe1" data-bs-toggle="modal" data-bs-target=".universe3" width="256px" height="180px">
+                            <p class="d-flex justify-self-center"><strong>Sunflower Galaxy</strong></p>
+                        </div>
+    
+                        <div class="modal universe3" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top rounded-0" src="https://i.pinimg.com/originals/4f/3e/1e/4f3e1ee1e4f98a888e2e1734ad5e8b23.png" alt="Card image cap">
+                                        <div class="card-body">
+                                          <h5 class="card-title d-flex justify-content-center">Sunflower Galaxy</h5>
+                                          <div class="card-text descricao d-flex align-content-left">
+                                                <p>
+                                                    Foi o primeiro objeto do céu profundo descoberto pelo amigo e colega de observatório de Charles Messier, Pierre Méchain, em 14 de junho de 1779. Messier incluiu o objeto no mesmo dia em seu catálogo.
+                                                    <br><br>
+                                                    Foi uma das primeiras galáxias espirais reconhecida como tal por William Parsons, que incluiu-a como uma das "14 nebulosas espirais" de sua lista, em 1850. Foi classificada por Edwin Hubble como uma galáxia tipo Sb ou Sc,
+                                                     exibindo um padrão espiral em "manchas" que podem ser traçadas ao longo de sua periferia de 6 minutos de grau de diâmetro.
+                                                    Pertence ao grupo de galáxias M51, que se situa a cerca de 37 milhões de anos-luz em relação à Terra. Seu diâmetro aparente na esfera celeste corresponde a um diâmetro real de 65 000 anos-luz e sua magnitude aparente é 8,6. 
+                                                    Foi descoberta apenas uma supernova na galáxia, SN 1971I, descoberta em 25 de maio de 1971 e alcançou a magnitude aparente 11,8.
+                                                </p>
+                                          </div>
+                                          <button type="submit" class="Salvar btn btn-primary">Salvar</button>
+                                          <button type="submit" class="Voltar btn btn-danger">Voltar</button>
+                                          <form id="formulario">
+                                            <div>
+                                                <label for="inputText" class="form-label"></label>
+                                                <textarea class="form-control" id="inputText" placeholder="Comente algo..."></textarea>
+                                            </div>
+                                            <div class="row mt-3 mb-3">
+                                                <strong><span class="contadorModal d-flex justify-content-center"></span></strong>
+                                            </div>
+                                            <div class="d-flex justify-content-center py-2">
+                                                <button type="submit" class="Comentar btn btn-primary">Comentar</button>
+                                            </div>
+                                          </form>
+                                          <div id="commentPost"></div>
+                                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <br><br>
+
+                    <div class="row">
+                        <div class="universe col">
+                            <img class="rounded-0" src="Sleeping Beauty Galaxy.jpg" alt="universe1" data-bs-toggle="modal" data-bs-target=".universe4" width="256px" height="180px">
+                            <p class="d-flex justify-self-center"><strong>Sleeping Beauty Galaxy</strong></p>
+                        </div>
+    
+                        <div class="modal universe4" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top rounded-0" src="https://1.bp.blogspot.com/_70JElYVm91Q/TL9JJnHKvqI/AAAAAAAAJBw/BhYs3FafEcc/s640/Imagem2.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title d-flex justify-content-center">Sleeping Beauty Galaxy</h5>
+                                            <div class="card-text descricao d-flex align-content-left">
+                                                <p>
+                                                    A galáxia do Olho Negro (Messier 64, NGC 4826) é uma galáxia espiral localizada a aproximadamente dezessete milhões de anos-luz de distância na direção da constelação da Cabeleira de Berenice. 
+                                                    Possui aproximadamente oitenta e seis mil anos-luz de diâmetro, uma magnitude aparente de +9,4, uma declinação de +21° 40' 58" e uma ascensão reta de 12 horas, 56 minutos e 44,2 segundos.
+                                                    <br><br>
+                                                    A galáxia NGC 4826 é também conhecida como Galáxia do Olho Negro devido a sua extraordinária aparência escura com numerosos pontos brilhantes. A característica mais estranha e peculiar observada nesta galáxia diz respeito aos seus movimentos internos, 
+                                                    enquanto os braços externos movem-se em uma direção, a parte interna move-se para outra direção, este fato é de difícil explicação, mas os cientistas acreditam na hipótese de que a galáxia NGC 4826 seja o resultado da colisão entre duas galáxias, uma grande e uma pequena.
+                                                </p>
+                                            </div>
+                                            <button type="submit" class="Salvar btn btn-primary">Salvar</button>
+                                            <button type="submit" class="Voltar btn btn-danger">Voltar</button>
+                                            <form id="formulario">
+                                                <div>
+                                                    <label for="inputText" class="form-label"></label>
+                                                    <textarea class="form-control" id="inputText" placeholder="Comente algo..."></textarea>
+                                                </div>
+                                                <div class="row mt-3 mb-3">
+                                                    <strong><span class="contadorModal d-flex justify-content-center"></span></strong>
+                                                </div>
+                                                <div class="d-flex justify-content-center py-2">
+                                                    <button type="submit" class="Comentar btn btn-primary">Comentar</button>
+                                                </div>
+                                            </form>
+                                            <div id="commentPost"></div>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="universe col">
+                            <img class="rounded-0" src="Centaurus A - NGC 5128.jpg" alt="universe1" data-bs-toggle="modal" data-bs-target=".universe5" width="256px" height="180px">
+                            <p class="d-flex justify-self-center"><strong>Centaurus A - NGC 5128</strong></p>
+                        </div>
+    
+                        <div class="modal universe5" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top rounded-0" src="http://www.astrosurf.com/antilhue/NGC5128-LRGBRC.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title d-flex justify-content-center">Centaurus A - NGC 5128</h5>
+                                            <div class="card-text descricao d-flex align-content-left">
+                                                <p>
+                                                    Uma galáxia geralmente é elíptica, espiral ou irregular. As maiores sempre estão em uma das duas primeiras opções. 
+                                                    Ou era o que os astrônomos pensavam até recentemente, quando descobriram que a Centauro A, chamada oficialmente NGC 5128, é um híbrido de elíptica com espiral.
+                                                    <br><br>
+                                                    Acontece que a galáxia em questão possui o núcleo elíptico, mas traz também dois “braços” em espiral, cobertos por poeira. 
+                                                    É uma das galáxias mais brilhantes do céu, localizada 14 milhões de anos-luz da Terra, na constelação Centauro. 
+                                                    Sua descoberta foi feita em 1826, e apenas análises recentes com imagens via rádio detectaram os braços típicos de uma galáxia espiral.
+                                                    <br><br>
+                                                    De acordo com o esquema de classificação Hubble para galáxias, a NGC 5128 é uma galáxia lenticular, que é um meio-termo entre as outras classificações. 
+                                                    A teoria é que a Centauro A engoliu uma galáxia espiral alguns milhões de anos atrás, por isso apresenta os braços típicos de uma espiral. 
+                                                    No entanto, essas fusões não costumam deixar as espirais intactas.
+                                                </p>
+                                            </div>
+                                            <button type="submit" class="Salvar btn btn-primary">Salvar</button>
+                                            <button type="submit" class="Voltar btn btn-danger">Voltar</button>
+                                            <form id="formulario">
+                                                <div>
+                                                    <label for="inputText" class="form-label"></label>
+                                                    <textarea class="form-control" id="inputText" placeholder="Comente algo..."></textarea>
+                                                </div>
+                                                <div class="row mt-3 mb-3">
+                                                    <strong><span class="contadorModal d-flex justify-content-center"></span></strong>
+                                                </div>
+                                                <div class="d-flex justify-content-center py-2">
+                                                    <button type="submit" class="Comentar btn btn-primary">Comentar</button>
+                                                </div>
+                                            </form>
+                                            <div id="commentPost"></div>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="universe col">
+                            <img class="rounded-0" src="Omega Centauri.jpg" alt="universe1" data-bs-toggle="modal" data-bs-target=".universe6" width="256px" height="180px">
+                            <p class="d-flex justify-self-center"><strong>Omega Centauri</strong></p>
+                        </div>
+    
+                        <div class="modal universe6" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top rounded-0" src="https://cdn.eso.org/images/thumb700x/eso0844a.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title d-flex justify-content-center">Omega Centauri</h5>
+                                            <div class="card-text descricao d-flex align-content-left">
+                                                <p>
+                                                    Omega Centauri ou NGC 5139 é um aglomerado globular situado na constelação de Centaurus. Foi descoberto por Edmond Halley em 1677. Omega Centauri tinha sido incluído no catálogo de Ptolomeu 2000 anos atrás como uma estrela. 
+                                                    O astrônomo inglês John William Herschel foi o primeiro a reconhecer como um aglomerado globular em 1830. 
+                                                    <br><br>
+                                                    Este aglomerado orbita nossa galáxia, a Via Láctea, sendo o maior e mais brilhante dos aglomerados globulares que a orbitam. É um dos poucos que pode ser visto a olho nu. 
+                                                    Omega Centauri está a cerca de 15.800 anos-luz da Terra e contém vários milhões de estrelas de População II. 
+                                                    As estrelas de seu centro são tão interligadas entre si que acreditava estarem apenas 0,1 anos luz umas das outras. 
+                                                    <br><br>
+                                                    Sua idade estimada é de cerca de 12 bilhões de anos, esta característica o distingue de outros aglomerados globulares em nossa galáxia que contêm estrelas de diferentes gerações.
+                                                </p>
+                                            </div>
+                                            <button type="submit" class="Salvar btn btn-primary">Salvar</button>
+                                            <button type="submit" class="Voltar btn btn-danger">Voltar</button>
+                                            <form id="formulario">
+                                                <div>
+                                                    <label for="inputText" class="form-label"></label>
+                                                    <textarea class="form-control" id="inputText" placeholder="Comente algo..."></textarea>
+                                                </div>
+                                                <div class="row mt-3 mb-3">
+                                                    <strong><span class="contadorModal d-flex justify-content-center"></span></strong>
+                                                </div>
+                                                <div class="d-flex justify-content-center py-2">
+                                                    <button type="submit" class="Comentar btn btn-primary">Comentar</button>
+                                                </div>
+                                            </form>
+                                            <div id="commentPost"></div>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="d-none d-sm-none d-md-block col-md-4 col-lg-2 coluna2 align-items-center">
+                <input id="searchbar" onkeyup="search_galaxy()" type="text" name="search" placeholder="Pesquise...">
+                <ul>
+                    <li><a href="PF - Pagina Central.html" class="text-white">Página Central</a></li>
+                    <li><a href="PF - Ajuda.html" class="text-white">Ajuda</a></li>
+                    <li><a href="PF - Perfil.html" class="text-white">Perfil</a></li>
+                </ul>
+            </div>
+          </div>
+     </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+    <script src="./PF.js"></script>
+  </body>
+</html>
