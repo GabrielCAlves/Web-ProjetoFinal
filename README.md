@@ -3,8 +3,8 @@
 Nome do projeto: Galáxias pelo Cosmos
 
 Membros da equipe:
-Gabriel Cavalcanti Alves - 495439
-Ítalo Rodrigues Nascimento - 494845
+- Gabriel Cavalcanti Alves - 495439
+- Ítalo Rodrigues Nascimento - 494845
 
 Tecnologias e frameworks utilizados:
 - No Frontend: VScode e Bootstrap
